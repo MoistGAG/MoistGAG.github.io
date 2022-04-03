@@ -1606,6 +1606,11 @@
   z-index: 1;
   pointer-events: none;
 }
+@media (max-width: 1350px) {
+  :root .bg-1QIAus::before {
+    display: none;
+  }
+}
 
 :root ::-webkit-input-placeholder, :root body, :root button, :root input, :root select, :root textarea {
   font-family: "Nunito" !important;
@@ -1750,7 +1755,7 @@
   top: 82px;
 }
 :root .ready-3BZNWT + .text-2bYgPB::before {
-  content: "Not Available";
+  content: "";
   position: absolute;
   bottom: 100px;
   left: 50px;
@@ -1802,7 +1807,7 @@
   }
 
   .container-1eFtFS::after {
-    content: " ";
+    content: "Not Available";
     position: fixed;
     top: 220px;
     bottom: 85px;
