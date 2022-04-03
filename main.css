@@ -1750,7 +1750,7 @@
   top: 82px;
 }
 :root .ready-3BZNWT + .text-2bYgPB::before {
-  content: "";
+  content: "Information Not Available";
   position: absolute;
   bottom: 100px;
   left: 50px;
